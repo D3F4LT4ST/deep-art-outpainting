@@ -1,0 +1,3 @@
+[submodule "external/image-super-resolution"]
+	path = external/image-super-resolution
+	url = https://github.com/idealo/image-super-resolution
