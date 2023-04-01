@@ -1,8 +1,8 @@
 import os
 import cv2 as cv
-from ..common import DATA_PATH
 
 def prepare_sr_dataset(
+        data_path: str,
         hr_size: int=2048, 
         lr_factor: int=4 
     ):
@@ -15,9 +15,9 @@ def prepare_sr_dataset(
     '''
     for subset in ['train', 'valid', 'test']:
 
-        orig_subset_path = os.path.abspath(DATA_PATH + f'/WikiArtSR/{subset}')
-        hr_subset_path = os.path.abspath(DATA_PATH + f'/WikiArtSR_HR/{subset}')
-        lr_subset_path = os.path.abspath(DATA_PATH + f'/WikiArtSR_LR/{subset}')
+        orig_subset_path = os.path.abspath(data_path + f'/WikiArtSR/{subset}')
+        hr_subset_path = os.path.abspath(data_path + f'/WikiArtSR_HR/{subset}')
+        lr_subset_path = os.path.abspath(data_path + f'/WikiArtSR_LR/{subset}')
 
         os.makedirs(hr_subset_path, exist_ok=True)
         os.makedirs(lr_subset_path, exist_ok=True)
@@ -46,4 +46,4 @@ def prepare_sr_dataset(
             img_lr = cv.resize(img_hr, (width_lr, height_lr), interpolation=cv.INTER_AREA)
 
             cv.imwrite(os.path.abspath(hr_subset_path + f'/{fname.split(".")[0]}.jpg'), img_hr)
-            cv.imwrite(os.path.abspath(lr_subset_path + f'/{fname.split(".")[0]}.jpg'), img_lr)
+            cv.imwrite(os.path.abspath(lr_subset_path + f'/{fname.split(".")[0]}x{lr_factor}.jpg'), img_lr)
