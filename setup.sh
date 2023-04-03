@@ -9,6 +9,12 @@ wget 'https://public-asai-dl-models.s3.eu-central-1.amazonaws.com/ISR/rrdn-C4-D3
 mkdir weights/SR
 mv *.hdf5 weights/SR
 
+wget 'https://docs.google.com/uc?export=download&id=19qzrIGWUW3eu5troIjHzhCIbTZONSRjX&confirm=t' -O 4xPSNR.pth
+wget 'https://docs.google.com/uc?export=download&id=1IVJFmC9S6N9v7dpTuNuO0U3D0wxbKyau&confirm=t' -O ART_ESRGAN_x4_G.pth
+mv *.pth weights/SR
+
 # Install dependencies
 pip install -r requirements.txt
 cd libs/image-super-resolution/; python setup.py install
+pip install -r libs/traiNNer/requirements.txt
+pip install -r libs/traiNNer/optional_requirements.txt
