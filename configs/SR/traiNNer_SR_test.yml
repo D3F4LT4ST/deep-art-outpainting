@@ -1,0 +1,38 @@
+name: ART_ESRGAN_x4
+suffix: _ESRGAN
+model: sr
+scale: 4
+gpu_ids: [0]
+# test_mode: normal # normal | chop | x8
+# chop_patch_size: 200
+# chop_step: 0.9
+# val_comparison: true
+
+# use_cem: false
+#   cem_config:
+#     cem_kernel: cubic # cubic | linear | estimated
+#     out_orig: false
+#     out_filter: true
+#     out_keepY: false
+
+datasets:
+  test_1: # the 1st test dataset
+    name: WikiArtSR_valid
+    mode: LR
+    # dataroot_HR: '../test1/HR'
+    dataroot_LR: '/content/deep-art-outpainting/data/WikiArtSR_LR/valid'
+    # znorm: true
+  test_2: # the 2nd test dataset
+    name: WikiArtSR_test
+    mode: LR
+    # dataroot_HR: '../test2/HR'
+    dataroot_LR: '/content/deep-art-outpainting/data/WikiArtSR_LR/test'
+    # znorm: true
+
+path:
+  root: '/content/deep-art-outpainting/libs/traiNNer'
+  pretrain_model_G: 'content/deep-art-outpainting/libs/traiNNer/experiments/ART_ESRGAN_x4/models/latest_G.pth'
+
+network_G: esrgan
+
+metrics: "psnr,ssim,lpips"
