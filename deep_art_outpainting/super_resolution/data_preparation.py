@@ -32,10 +32,10 @@ def prepare_sr_dataset(
             smallest_dim = min(width, height)
             if smallest_dim == height:
                 height_hr = hr_size
-                width_hr = int(hr_size * aspect_ratio)
+                width_hr = round((hr_size * aspect_ratio / lr_factor)) * lr_factor
             else:
                 width_hr = hr_size
-                height_hr = int(hr_size / aspect_ratio)
+                height_hr = round((hr_size / aspect_ratio / lr_factor)) * lr_factor
                 
             hr_interp = cv.INTER_AREA if smallest_dim > hr_size else cv.INTER_CUBIC
             img_hr = cv.resize(orig_img, (width_hr, height_hr), interpolation=hr_interp)
