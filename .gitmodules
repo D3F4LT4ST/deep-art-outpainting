@@ -1,9 +1,9 @@
 [submodule "libs/traiNNer"]
 	path = libs/traiNNer
 	url = https://github.com/victorca25/traiNNer
-[submodule "libs/ESRGAN"]
-	path = libs/ESRGAN
-	url = https://github.com/BlueAmulet/ESRGAN
 [submodule "libs/image-super-resolution"]
 	path = libs/image-super-resolution
 	url = https://github.com/idealo/image-super-resolution
+[submodule "libs/ESRGAN"]
+	path = libs/ESRGAN
+	url = https://github.com/joeyballentine/ESRGAN
