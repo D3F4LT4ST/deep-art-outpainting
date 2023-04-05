@@ -18,3 +18,4 @@ pip install -r requirements.txt
 cd libs/image-super-resolution/; python setup.py install
 pip install -r libs/traiNNer/requirements.txt
 pip install -r libs/traiNNer/optional_requirements.txt
+pip install -r libs/ESRGAN/requirements.txt
