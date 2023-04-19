@@ -1,5 +1,6 @@
 import os
 import cv2 as cv
+from argparse import ArgumentParser
 
 def prepare_sr_dataset(
         data_path: str,
@@ -47,3 +48,15 @@ def prepare_sr_dataset(
 
             cv.imwrite(os.path.abspath(hr_subset_path + f'/{fname.split(".")[0]}.jpg'), img_hr)
             cv.imwrite(os.path.abspath(lr_subset_path + f'/{fname.split(".")[0]}x{lr_factor}.jpg'), img_lr)
+
+if __name__ == '__main__':
+    parser = ArgumentParser(description="Super resolution dataset preparation.")
+
+    parser.add_argument('-data-path', type=str, required=True)
+    parser.add_argument('-hr-size', type=int, default=2048, required=False) 
+    parser.add_argument('-lr-factor', type=int, default=4, required=False)
+
+    args = parser.parse_args()
+
+    prepare_sr_dataset(**vars(args))
+
