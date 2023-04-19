@@ -7,3 +7,6 @@
 [submodule "libs/image-super-resolution"]
 	path = libs/image-super-resolution
 	url = https://github.com/idealo/image-super-resolution
+[submodule "libs/SemanticSegmentationInArtPaintings"]
+	path = libs/SemanticSegmentationInArtPaintings
+	url = https://github.com/davidghobson1/SemanticSegmentationInArtPaintings
