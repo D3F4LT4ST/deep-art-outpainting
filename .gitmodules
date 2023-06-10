@@ -10,6 +10,3 @@
 [submodule "libs/SemanticSegmentationInArtPaintings"]
 	path = libs/SemanticSegmentationInArtPaintings
 	url = https://github.com/davidghobson1/SemanticSegmentationInArtPaintings
-[submodule "libs/NTIRE22_Inpainting"]
-	path = libs/NTIRE22_Inpainting
-	url = https://github.com/affromero/NTIRE22_Inpainting
