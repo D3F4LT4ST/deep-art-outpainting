@@ -11,6 +11,7 @@ def prepare_sr_dataset(
     Prepares WikiArt super resolution dataset by creating high and low resolution versions of the images.
 
     Args:
+        data_path: path to dataset directory
         hr_size: high resolution image size (smallest dimension)
         lr_factor: low resolution downscaling factor
     '''
