@@ -39,10 +39,10 @@ The project was designed to be executed on Google Colab. Please refer to `notebo
 <th>Original high resolution</th>
 </tr>
 <tr>
-<td><div style="width: 250px; height: 250px; background-image: url(./sample_data/WikiArtSR_LR/test/img_1.jpg); background-size: 500% 420%; background-position: -150px -120px"></div></td>
-<td><div style="width: 250px; height: 250px; background-image: url(./sample_outputs/WikiArtSR/test/4xPSNR/img_1.png); background-size: 500% 420%; background-position: -150px -120px"></div></td>
-<td><div style="width: 250px; height: 250px; background-image: url(./sample_outputs/WikiArtSR/test/ART_ESRGAN_x4_G/img_1.png); background-size: 500% 420%; background-position: -150px -120px"></div></td>
-<td><div style="width: 250px; height: 250px; background-image: url(./sample_data/WikiArtSR_HR/test/img_1.jpg); background-size: 500% 420%; background-position: -150px -120px"></div></td>
+<td><img src="./sample_data/WikiArtSR_LR/test/img_1_crop.png" width="250" height="250"></td>
+<td><img src="./sample_outputs/WikiArtSR/test/4xPSNR/img_1_crop.png" width="250" height="250"></td>
+<td><img src="./sample_outputs/WikiArtSR/test/ART_ESRGAN_x4_G//img_1_crop.png" width="250" height="250"></td>
+<td><img src="./sample_data/WikiArtSR_HR/test/img_1_crop.png" width="250" height="250"></td>
 </tr>
 </tr>
 </table>
@@ -56,23 +56,21 @@ The project was designed to be executed on Google Colab. Please refer to `notebo
 <th>Artificially Inspired + 4x Art ESRGAN</th>
 </tr>
 <tr>
-<td><div style="width: 250px; height: 322px; background-image: url(./sample_data/WikiArt/realism/img_1.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 322px; background-image: url(./sample_outputs/WikiArt/realism/masked/img_1_mask.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 322px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_1.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 322px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_1.png); background-size: contain;"></div></td>
+<td><img src="./sample_data/WikiArt/realism/img_1.png" width="250" height="322"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_1_mask.png" width="250" height="322"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_1.png" width="250" height="322"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_1.png" width="250" height="322"></td>
 </tr>
 <tr>
-<td><div style="width: 250px; height: 286px; background-image: url(./sample_data/WikiArt/realism/img_2.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 286px; background-image: url(./sample_outputs/WikiArt/realism/masked/img_2_mask.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 286px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_2.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 286px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_2.png); background-size: contain;"></div></td>
-<tr>
+<td><img src="./sample_data/WikiArt/realism/img_2.png" width="250" height="286"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_2_mask.png" width="250" height="286"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_2.png" width="250" height="286"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_2.png" width="250" height="286"></td>
 </tr>
 <tr>
-<td><div style="width: 250px; height: 411px; background-image: url(./sample_data/WikiArt/realism/img_3.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 411px; background-image: url(./sample_outputs/WikiArt/realism/masked/img_3_mask.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 411px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_3.png); background-size: contain;"></div></td>
-<td><div style="width: 250px; height: 411px; background-image: url(./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_3.png); background-size: contain;"></div></td>
-<tr>
+<td><img src="./sample_data/WikiArt/realism/img_3.png" width="250" height="411"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_3_mask.png" width="250" height="411"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_3.png" width="250" height="411"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_3.png" width="250" height="411"></td>
 </tr>
 </table>
