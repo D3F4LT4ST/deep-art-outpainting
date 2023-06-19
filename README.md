@@ -39,10 +39,10 @@ The project was designed to be executed on Google Colab. Please refer to `notebo
 <th>Original high resolution</th>
 </tr>
 <tr>
-<td><img src="./sample_data/WikiArtSR_LR/test/img_1_crop.png" width="250" height="250"></td>
-<td><img src="./sample_outputs/WikiArtSR/test/4xPSNR/img_1_crop.png" width="250" height="250"></td>
-<td><img src="./sample_outputs/WikiArtSR/test/ART_ESRGAN_x4_G//img_1_crop.png" width="250" height="250"></td>
-<td><img src="./sample_data/WikiArtSR_HR/test/img_1_crop.png" width="250" height="250"></td>
+<td><img src="./sample_data/WikiArtSR_LR/test/img_1_crop.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArtSR/test/4xPSNR/img_1_crop.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArtSR/test/ART_ESRGAN_x4_G//img_1_crop.png" width="250"></td>
+<td><img src="./sample_data/WikiArtSR_HR/test/img_1_crop.png" width="250"></td>
 </tr>
 </tr>
 </table>
@@ -56,21 +56,21 @@ The project was designed to be executed on Google Colab. Please refer to `notebo
 <th>Artificially Inspired + 4x Art ESRGAN</th>
 </tr>
 <tr>
-<td><img src="./sample_data/WikiArt/realism/img_1.png" width="250" height="322"></td>
-<td><img src="./sample_outputs/WikiArt/realism/masked/img_1_mask.png" width="250" height="322"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_1.png" width="250" height="322"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_1.png" width="250" height="322"></td>
+<td><img src="./sample_data/WikiArt/realism/img_1.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_1_mask.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_1.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_1.png" width="250"></td>
 </tr>
 <tr>
-<td><img src="./sample_data/WikiArt/realism/img_2.png" width="250" height="286"></td>
-<td><img src="./sample_outputs/WikiArt/realism/masked/img_2_mask.png" width="250" height="286"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_2.png" width="250" height="286"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_2.png" width="250" height="286"></td>
+<td><img src="./sample_data/WikiArt/realism/img_2.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_2_mask.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_2.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_2.png" width="250"></td>
 </tr>
 <tr>
-<td><img src="./sample_data/WikiArt/realism/img_3.png" width="250" height="411"></td>
-<td><img src="./sample_outputs/WikiArt/realism/masked/img_3_mask.png" width="250" height="411"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_3.png" width="250" height="411"></td>
-<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_3.png" width="250" height="411"></td>
+<td><img src="./sample_data/WikiArt/realism/img_3.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/masked/img_3_mask.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_stable_diff_sr/img_3.png" width="250"></td>
+<td><img src="./sample_outputs/WikiArt/realism/outpaint_artif_insp_sr/img_3.png" width="250"></td>
 </tr>
 </table>
