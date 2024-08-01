@@ -1,11 +1,11 @@
 # Deep Art Outpainting
 
-This project explored the applications of latest generative models in the subspace of artwork imagery, particularly for the task of restoring largely incomplete pieces of oil paintings belonging to realism, impressionism and similar styles that were painted on canvas.
+This project explored the applications of latest generative models in the subspace of artwork imagery, particularly for the task of restoring largely incomplete pieces of oil paintings belonging to realism, impressionism, and similar styles that were painted on canvas.
 
 ## Description
 The simulated artwork restoration pipeline consists of the following steps:
 1. An unfinished painting image is created by segmenting and retaining the subjects of the original image
-2. Masked image is fed into a generative model to fill in the empty regions
+2. The masked image is fed into a generative model to fill in the empty regions
 3. The outpainting result is processed by an upsampling model to produce a high resolution final reconstruction
 
 ### 1. Artwork subject segmentation
